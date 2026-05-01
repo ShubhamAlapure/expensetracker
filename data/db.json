@@ -1,0 +1,109 @@
+{
+  "settings": {
+    "currency": "INR",
+    "monthlyBudget": 3200,
+    "categoryBudgets": {
+      "Food": 720,
+      "Housing": 1350,
+      "Transport": 360,
+      "Utilities": 280,
+      "Health": 240,
+      "Shopping": 360,
+      "Entertainment": 260,
+      "Travel": 420,
+      "Other": 250
+    }
+  },
+  "transactions": [
+    {
+      "id": "seed-1",
+      "type": "income",
+      "title": "Paycheck",
+      "category": "Salary",
+      "amount": 5400,
+      "date": "2026-05-01",
+      "account": "Checking",
+      "notes": "Monthly salary"
+    },
+    {
+      "id": "seed-2",
+      "type": "expense",
+      "title": "Rent",
+      "category": "Housing",
+      "amount": 1350,
+      "date": "2026-05-02",
+      "account": "Checking",
+      "notes": "Apartment rent"
+    },
+    {
+      "id": "seed-3",
+      "type": "expense",
+      "title": "Groceries",
+      "category": "Food",
+      "amount": 146.78,
+      "date": "2026-05-04",
+      "account": "Debit Card",
+      "notes": "Weekly shop"
+    },
+    {
+      "id": "seed-4",
+      "type": "expense",
+      "title": "Metro pass",
+      "category": "Transport",
+      "amount": 92,
+      "date": "2026-05-05",
+      "account": "Credit Card",
+      "notes": ""
+    },
+    {
+      "id": "seed-5",
+      "type": "expense",
+      "title": "Streaming bundle",
+      "category": "Entertainment",
+      "amount": 32.99,
+      "date": "2026-05-08",
+      "account": "Credit Card",
+      "notes": ""
+    },
+    {
+      "id": "seed-6",
+      "type": "expense",
+      "title": "Pharmacy",
+      "category": "Health",
+      "amount": 58.24,
+      "date": "2026-05-10",
+      "account": "Debit Card",
+      "notes": ""
+    },
+    {
+      "id": "seed-7",
+      "type": "income",
+      "title": "Freelance invoice",
+      "category": "Freelance",
+      "amount": 860,
+      "date": "2026-05-12",
+      "account": "Checking",
+      "notes": "Landing page work"
+    },
+    {
+      "id": "seed-8",
+      "type": "expense",
+      "title": "New desk lamp",
+      "category": "Shopping",
+      "amount": 84.5,
+      "date": "2026-05-13",
+      "account": "Credit Card",
+      "notes": ""
+    },
+    {
+      "id": "seed-9",
+      "type": "expense",
+      "title": "Electric bill",
+      "category": "Utilities",
+      "amount": 118.1,
+      "date": "2026-05-16",
+      "account": "Checking",
+      "notes": ""
+    }
+  ]
+}

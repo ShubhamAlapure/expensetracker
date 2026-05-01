@@ -1,0 +1,22 @@
+{
+  "name": "expense-tracker-full-stack",
+  "version": "1.0.0",
+  "description": "A full stack expense tracker with a Node API, Firebase Firestore support, SQLite fallback, and browser UI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "expenses",
+    "budget",
+    "tracker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.8.0"
+  }
+}
