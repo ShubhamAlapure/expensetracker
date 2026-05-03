@@ -169,8 +169,6 @@ function parseEnvValue(value) {
 }
 
 async function ensureDb() {
-  await fs.mkdir(DATA_DIR, { recursive: true });
-
   if (REQUESTED_BACKEND === "firebase" || REQUESTED_BACKEND === "firestore") {
     await ensureFirebaseDb();
     return;
@@ -181,6 +179,7 @@ async function ensureDb() {
 
 async function ensureSqliteDb() {
   activeBackend = "sqlite";
+  await fs.mkdir(DATA_DIR, { recursive: true });
 
   if (!database) {
     let DatabaseSync;
